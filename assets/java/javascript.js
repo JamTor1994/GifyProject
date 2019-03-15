@@ -42,8 +42,9 @@ function renderButtons() {
     // looping array for anime buttons
     for (var i = 0; i < topics.length; i++) {
 
-        var btn = $("<button>");
+        var btn = $("<button type=button>");
         btn.addClass("data-topic");
+        btn.addClass("btn btn-dark")
         btn.attr("data-topic", topics[i]);
         btn.text(topics[i]);
         $("#buttons-view").append(btn);

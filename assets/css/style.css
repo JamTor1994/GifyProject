@@ -1,0 +1,31 @@
+body{
+    background-image: url(./photo-1507149677524-254e3ebb240f.jpg);
+    background-size: cover;
+}
+#gif-form {
+    float: right;
+    margin: 32px;
+}
+#gifs {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#gif-input{
+    color: white;
+    background: black;
+}
+label{
+    color: white;
+}
+#add-gif {
+    color: white;
+    background: black
+}
+p {
+    color: white;
+    
+}
